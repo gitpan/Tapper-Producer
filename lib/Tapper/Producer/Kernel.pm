@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::Kernel::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Tapper::Producer::Kernel::VERSION = '4.0.1';
+  $Tapper::Producer::Kernel::VERSION = '4.0.2';
 }
 # ABSTRACT: produce preconditions for a kernel package
 

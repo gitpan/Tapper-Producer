@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::Builder::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Tapper::Producer::Builder::VERSION = '4.0.1';
+  $Tapper::Producer::Builder::VERSION = '4.0.2';
 }
 # ABSTRACT: produce preconditions from external OSRC builder
 

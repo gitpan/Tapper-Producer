@@ -23,6 +23,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "open_source",
   "NAME" => "Tapper::Producer",
   "PREREQ_PM" => {
+    "AAAA::Crypt::DH" => 0,
     "Data::Dumper" => 0,
     "File::Temp" => 0,
     "File::stat" => 0,
@@ -38,7 +39,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "4.0.1",
+  "VERSION" => "4.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

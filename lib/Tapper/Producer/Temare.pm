@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::Temare::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Tapper::Producer::Temare::VERSION = '4.0.1';
+  $Tapper::Producer::Temare::VERSION = '4.0.2';
 }
 # ABSTRACT: produce preconditions via temare
 

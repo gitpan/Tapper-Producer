@@ -3,7 +3,7 @@ BEGIN {
   $Tapper::Producer::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Tapper::Producer::VERSION = '4.0.1';
+  $Tapper::Producer::VERSION = '4.0.2';
 }
 # ABSTRACT: Tapper - Precondition producers (base class)
 
