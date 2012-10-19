@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::Builder::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Tapper::Producer::Builder::VERSION = '4.0.2';
+  $Tapper::Producer::Builder::VERSION = '4.1.0';
 }
 # ABSTRACT: produce preconditions from external OSRC builder
 
@@ -70,15 +70,13 @@ BEGIN {
                         print $fh_stderr $stderr;
                 }
 
-                if ($stdout =~ m/^(###|tarball created:)\s*(.+)$/m ) {
-                        push @$new_precondition, {precondition_type => 'package', filename => $2};
+                if (my ($output) = $stdout =~ m/(?:\n|^)---\n(.+\n)\.\.\./s ) {
+                        my $yaml = YAML::Load($output);
+                        foreach my $package_name (@$yaml) {
+                                push @$new_precondition, {precondition_type => 'package', filename => $package_name};
+                        }
                 } else {
                         die "Build server did not provide a package file name";
-                }
-
-                # additional source package, needed for some kernels
-                if ($stdout =~ m/^\*\*\*\s*(.+)$/m ) {
-                        push @$new_precondition, {precondition_type => 'package', filename => $1};
                 }
 
                 return {precondition_yaml => YAML::Dump(@$new_precondition)};

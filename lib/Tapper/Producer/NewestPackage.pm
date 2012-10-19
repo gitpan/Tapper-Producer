@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::NewestPackage::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Tapper::Producer::NewestPackage::VERSION = '4.0.2';
+  $Tapper::Producer::NewestPackage::VERSION = '4.1.0';
 }
 # ABSTRACT: produce preconditions via find latest changed file
 
