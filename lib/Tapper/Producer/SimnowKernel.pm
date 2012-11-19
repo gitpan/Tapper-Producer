@@ -1,10 +1,10 @@
 ## no critic (RequireUseStrict)
 package Tapper::Producer::SimnowKernel;
 BEGIN {
-  $Tapper::Producer::SimnowKernel::AUTHORITY = 'cpan:AMD';
+  $Tapper::Producer::SimnowKernel::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::SimnowKernel::VERSION = '4.1.0';
+  $Tapper::Producer::SimnowKernel::VERSION = '4.1.1';
 }
 # ABSTRACT: produce preconditions for simnow kernel testing
 

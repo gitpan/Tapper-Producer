@@ -1,10 +1,10 @@
 ## no critic (RequireUseStrict)
 package Tapper::Producer::DummyProducer;
 BEGIN {
-  $Tapper::Producer::DummyProducer::AUTHORITY = 'cpan:AMD';
+  $Tapper::Producer::DummyProducer::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::DummyProducer::VERSION = '4.1.0';
+  $Tapper::Producer::DummyProducer::VERSION = '4.1.1';
 }
 
         use Moose;

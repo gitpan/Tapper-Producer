@@ -1,10 +1,10 @@
 ## no critic (RequireUseStrict)
 package Tapper::Producer::Kernel;
 BEGIN {
-  $Tapper::Producer::Kernel::AUTHORITY = 'cpan:AMD';
+  $Tapper::Producer::Kernel::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::Kernel::VERSION = '4.1.0';
+  $Tapper::Producer::Kernel::VERSION = '4.1.1';
 }
 # ABSTRACT: produce preconditions for a kernel package
 

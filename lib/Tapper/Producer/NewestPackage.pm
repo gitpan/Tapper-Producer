@@ -1,10 +1,10 @@
 ## no critic (RequireUseStrict)
 package Tapper::Producer::NewestPackage;
 BEGIN {
-  $Tapper::Producer::NewestPackage::AUTHORITY = 'cpan:AMD';
+  $Tapper::Producer::NewestPackage::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::NewestPackage::VERSION = '4.1.0';
+  $Tapper::Producer::NewestPackage::VERSION = '4.1.1';
 }
 # ABSTRACT: produce preconditions via find latest changed file
 

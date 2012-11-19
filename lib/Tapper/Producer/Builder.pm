@@ -1,10 +1,10 @@
 ## no critic (RequireUseStrict)
 package Tapper::Producer::Builder;
 BEGIN {
-  $Tapper::Producer::Builder::AUTHORITY = 'cpan:AMD';
+  $Tapper::Producer::Builder::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::Builder::VERSION = '4.1.0';
+  $Tapper::Producer::Builder::VERSION = '4.1.1';
 }
 # ABSTRACT: produce preconditions from external OSRC builder
 

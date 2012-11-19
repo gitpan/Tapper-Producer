@@ -1,10 +1,10 @@
 ## no critic (RequireUseStrict)
 package Tapper::Producer::Temare;
 BEGIN {
-  $Tapper::Producer::Temare::AUTHORITY = 'cpan:AMD';
+  $Tapper::Producer::Temare::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::Temare::VERSION = '4.1.0';
+  $Tapper::Producer::Temare::VERSION = '4.1.1';
 }
 # ABSTRACT: produce preconditions via temare
 
