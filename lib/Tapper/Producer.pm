@@ -1,11 +1,11 @@
 package Tapper::Producer;
-# git description: v4.1.1-2-g449517c
+# git description: v4.1.2-2-gb3a4473
 
 BEGIN {
   $Tapper::Producer::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::VERSION = '4.1.2';
+  $Tapper::Producer::VERSION = '4.1.3';
 }
 # ABSTRACT: Tapper - Precondition producers (base class)
 

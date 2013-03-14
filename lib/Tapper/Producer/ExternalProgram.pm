@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::ExternalProgram::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::ExternalProgram::VERSION = '4.1.2';
+  $Tapper::Producer::ExternalProgram::VERSION = '4.1.3';
 }
 # ABSTRACT: produce preconditions via external program
 

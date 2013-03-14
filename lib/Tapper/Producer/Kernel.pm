@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::Kernel::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::Kernel::VERSION = '4.1.2';
+  $Tapper::Producer::Kernel::VERSION = '4.1.3';
 }
 # ABSTRACT: produce preconditions for a kernel package
 

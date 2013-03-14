@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::NewestPackage::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::NewestPackage::VERSION = '4.1.2';
+  $Tapper::Producer::NewestPackage::VERSION = '4.1.3';
 }
 # ABSTRACT: produce preconditions via find latest changed file
 

@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::DummyProducer::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::DummyProducer::VERSION = '4.1.2';
+  $Tapper::Producer::DummyProducer::VERSION = '4.1.3';
 }
 
         use Moose;

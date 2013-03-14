@@ -4,7 +4,7 @@ BEGIN {
   $Tapper::Producer::SimnowKernel::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::SimnowKernel::VERSION = '4.1.2';
+  $Tapper::Producer::SimnowKernel::VERSION = '4.1.3';
 }
 # ABSTRACT: produce preconditions for simnow kernel testing
 
