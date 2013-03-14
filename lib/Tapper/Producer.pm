@@ -1,11 +1,11 @@
 package Tapper::Producer;
-# git description: v4.1.0-1-g6016acb
+# git description: v4.1.1-2-g449517c
 
 BEGIN {
   $Tapper::Producer::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Tapper::Producer::VERSION = '4.1.1';
+  $Tapper::Producer::VERSION = '4.1.2';
 }
 # ABSTRACT: Tapper - Precondition producers (base class)
 
@@ -31,6 +31,7 @@ sub produce
 1; # End of Tapper::Producer
 
 __END__
+
 =pod
 
 =encoding utf-8
@@ -60,11 +61,10 @@ AMD OSRC Tapper Team <tapper@amd64.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2012 by Advanced Micro Devices, Inc..
+This software is Copyright (c) 2013 by Advanced Micro Devices, Inc..
 
 This is free software, licensed under:
 
   The (two-clause) FreeBSD License
 
 =cut
-

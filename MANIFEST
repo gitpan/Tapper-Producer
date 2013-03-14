@@ -9,6 +9,7 @@ dist.ini
 lib/Tapper/Producer.pm
 lib/Tapper/Producer/Builder.pm
 lib/Tapper/Producer/DummyProducer.pm
+lib/Tapper/Producer/ExternalProgram.pm
 lib/Tapper/Producer/Kernel.pm
 lib/Tapper/Producer/NewestPackage.pm
 lib/Tapper/Producer/SimnowKernel.pm
